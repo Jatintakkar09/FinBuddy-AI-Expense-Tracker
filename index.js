@@ -12,7 +12,7 @@ bot.onText(/\/start/, (msg) => {
     reply_markup: {
       inline_keyboard: [
         [
-          { text: "➕ Add Expense", callback_data: "add_expense" },cs
+          { text: "➕ Add Expense", callback_data: "add_expense" },
           { text: "📊 View Summary", callback_data: "view_summary" },
         ],
         [
